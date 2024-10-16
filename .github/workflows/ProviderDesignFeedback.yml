@@ -24,7 +24,7 @@ env:
   oas_file_location: oas/openapi.yaml
   application_name: pactflow-example-provider
   PACT_BROKER_BASE_URL: https://pega1234.pactflow.io
-  PACT_BROKER_TOKEN: ${{ secrets.PACTFLOW }}
+  PACT_BROKER_TOKEN: u4EsivLnkyR3Rhm51E8gzQ
 
 jobs:
   pact-publish-oas-action:
